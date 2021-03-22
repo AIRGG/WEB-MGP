@@ -1,0 +1,287 @@
+<!-- 
+ 
+                                                                                            
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="img/icontab.png" type="image/icon type">
+	<title>Mitrasoft Global Perdana</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js" integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ==" crossorigin="anonymous"></script>
+    <!-- <script>
+		var prevScrollpos = window.pageYOffset;
+		window.onscroll = function() {
+		var currentScrollPos = window.pageYOffset;
+		  if (prevScrollpos > currentScrollPos) {
+			document.getElementById("navbar").style.top = "0";
+		  } else {
+			document.getElementById("navbar").style.top = "-100px";
+		  }
+		  prevScrollpos = currentScrollPos;	
+		}
+		</script> -->
+	
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body id="bodyall">
+
+	
+
+<!-- Navigation -->
+<div class="container-fluid">
+<nav class="navbar shadow p-6 mb-3 navbar-expand-md navbar-light fixed-top scrolling-navbar" id="navbar">
+	<a class="navbar-brand" href="#">
+    <img src="img/mgplogo.png" width="auto" height="35" alt="">
+ 	</a>
+	
+	
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	  <span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNav">
+	  <ul class="nav navbar-nav ml-auto mr-5">
+		<li class="nav-item ">
+		  <a class="nav-link " href="index.html">Home</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="aboutus.html">About Us</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="product.html">Product</a>
+		</li>
+		  <li class="nav-item">
+			<a class="nav-link" href="contact.html">Contact</a>
+		  </li>
+	  </ul>
+	  </div>
+	</nav>
+	</div>
+<!-- End Navigation -->
+
+
+
+<!--- Image Slider -->
+<div class="container-fluid p-0" id="slider">
+<div id="slides" class="carousel slide" data-ride="carousel" data-interval="2000"> 
+    <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="0"></li>
+        <li data-target="#slides" data-slide-to="0 "></li>
+    </ul>
+    <div class="carousel-inner img-fluid">
+        <div class="carousel-item active">
+            <img src="img/im1.png" class="mx-auto d-block" width=100%>
+        </div>
+        <div class="carousel-item">
+            <img src="img/im2.png" class="mx-auto d-block" width=100%>
+        </div>
+        <div class="carousel-item">
+            <img src="img/im3.png" class="mx-auto d-block" width=100%>
+        </div>
+    </div>
+	</div>
+	</div>
+    <!--- End Image Slider -->
+
+
+
+    <!--- Content -->
+    <div class="container-fluid padding" id="content">
+        <div class="row no-gutters p-4">
+            <div class="col-sm-12 col-lg-6" >
+				<h1 id="lead" class="display-6 p-3">Islamic Banking App (IBA)<br>As Your Core Banking System</h1>
+				<p id="isi" class="display-6 p-3 text-justify" data-aos="fade-up-right" data-aos-delay="100">
+					Core banking is a service provided by the bank where customers may access their bank account and perform basic transaction,
+					Core banking system include transaction accounts, loans and payments. Banks make these services available across multiple
+					channels like automated teller machines, internet banking, mobile banking and branches.
+ 					<br><br>Our company develop IBA with 3 main focus User Friendliness, Parameterize and Security. With simple interface and grouped
+					 features in several modules user can do their operational activity with relative ease, user can setup their own product freely
+					 with security like user id & password, transaction limit and access device terminal.
+				</p>
+			</div>
+			<div class="col-lg-6">
+                <img class="img-fluid p-3 rounded mx-auto d-block" src="img/content.png" alt="isometric iba">
+			</div>	
+		</div>
+	</div>
+
+			<div class="containter-fluid padding" id="cnbot" >
+				<div class="row">
+			<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 offset-xl-2" data-aos="zoom-in-up" data-aos-delay="200">
+				<img class="float-md-left float-lg-right worth" src="img/sub/ico1.png" height="40">
+			</div>
+			<div class="col-xs-11 col-sm-5 col-md-5 col-lg-5 col-xl-3" data-aos="zoom-in-up" data-aos-delay="200">
+				<h2 class="worth">Up To Date</h2>
+				<p id="isi-worth">Aside from doing routine system update our company also keep up with the latest regulation from OJK.</p>
+			</div>
+			<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 offset-xl-0" data-aos="zoom-in-up" data-aos-delay="200">
+				<img class="float-md-left float-lg-right" src="img/sub/ico2.png" height="40">
+			</div>
+			<div class="col-xs-11 col-sm-5 col-md-5 col-lg-5 col-xl-3" data-aos="zoom-in-up" data-aos-delay="200">
+				<h2 class="worth">Ease Of Access</h2>
+				<p id="isi-worth">Our product is easy to use and compactible in various version of windows.</p>
+			</div>
+			<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 offset-xl-2" data-aos="zoom-in-up" data-aos-delay="300">
+				<img class="float-md-left float-lg-right" src="img/sub/ico3.png" height="40">
+			</div>
+			<div class="col-xs-11 col-sm-5 col-md-5 col-lg-5 col-xl-3" data-aos="zoom-in-up" data-aos-delay="300">
+				<h2 class="worth">Reliable</h2>
+				<p><p id="isi-worth">More than 60% Bprs in Indonesia choose our IBA Product as their Core Banking System.</p>
+			</div>
+			<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 offset-xl-0" data-aos="zoom-in-up" data-aos-delay="300">
+				<img class="float-md-left float-lg-right" src="img/sub/ico4.png" height="40">
+			</div>
+			<div class="col-xs-11 col-sm-5 col-md-5 col-lg-5 col-xl-3" data-aos="zoom-in-up" data-aos-delay="300">
+				<h2 class="worth">Proven</h2>
+				<p><p id="isi-worth">Our company have more than 15 years of experience in serving various financial institution.</p>
+			</div>
+		</div>
+		</div>
+       
+	<!-- End Content-->
+	
+
+
+	<!-- News -->
+	<div class="container-fluid" id="news" data-aos="zoom-in-up" data-aos-delay="100">
+		<div class="col" >
+		<h3 id="ncap">News & Article</h3>
+		<div style="padding: 1em 5em">
+			<div class="d-flex justify-content-center row">
+				<div class="p-3 col-md-4 col-sm-6 d-flex align-items-stretch" v-for="x in Berita"> 	
+					<div class="card news-card">
+						<img class="card-img-top" :src="(x.urlimgthumb == '') ? 'img/thumbnail2.png' : 'news/img/'+x.urlimgthumb" alt="Card image cap">
+						<!-- <img class="card-img-top" v-bind:src="x.Gambar" alt="Card image cap"> -->
+						<div class="card-body">
+							<h5 id="judul" class="card-title">{{x.judul}}</h5>
+							<!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+							<a :href="'news/'+x.url" class="btn btn-primary">Read More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<!-- End News -->
+
+
+	<!-- ============================           partner -->
+<div class="container-fluid padding" id="p-image" data-aos="zoom-in-up" data-aos-delay="100">
+	<h3 id="o-partner">Our Partner</h3>
+<div class="row no-gutter">
+	<div class="p-5 col-sm-3 partner-logo">
+		<img class="pl" img src="img/gr/1.png" alt="Partner Logo">
+	</div>
+	<div class="p-5 col-sm-3 partner-logo">
+		<img class="pl" img src="img/gr/2.png" alt="Partner Logo">
+	</div>
+	<div class="p-5 col-sm-3 partner-logo">
+		<img class="pl" img src="img/gr/3.png" alt="Partner Logo">
+	</div>
+	<div class="p-5 col-sm-3 partner-logo">
+		<img class="pl" img src="img/gr/4.png" alt="Partner Logo">
+	</div>
+</div>
+<div class="row d-flex justify-content-center">
+	<div class="p-5 col-sm-3 partner-logo">
+		<img class="pl" img src="img/gr/5.png" alt="Partner Logo">
+	</div>
+	<div class="p-5 col-sm-3 partner-logo">
+		<img class="pl" img src="img/gr/6.png" alt="Partner Logo">
+	</div>
+	<div class="p-5 col-sm-3 partner-logo">
+		<img class="pl" img src="img/gr/7.png" alt="Partner Logo">
+	</div>
+</div>
+</div>
+
+
+<!-- ===========================          End Partner -->
+
+<br><br><br>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small pt-4" id="contact">
+		<!-- Footer Links -->
+		<div class="container-fluid text-center text-md-left" style="width: 80%;" id="ccontact">
+		  <!-- Grid row -->
+		  <div class="row">
+			<!-- Grid column -->
+			<div class="col-md-6 mt-md-0 mt-3">
+			  <!-- Content -->
+			  <h5 class="text-uppercase" style="color:#222"><i class="fas fa-map-pin"></i> Address</h5>
+			  <p>Ruko Pura Bojonggede, Jalan Madura 1 No.34 Kel.Tajurhalang, Kec.Tajurhalang, Bogor, Jawa Barat 16320.</p>
+			</div>
+			<!-- Grid column -->
+			<hr class="clearfix w-100 d-md-none pb-3">
+			<!-- Grid column -->
+			<div class="col-md-3 mb-md-0 mb-3">
+			  <!-- Links -->
+			  <h5 class="text-uppercase" style="color:#222"><i class="fas fa-phone"></i> Telephone</h5>
+			  <ul class="list-unstyled">
+				<li>
+				  <a>  0812 8334 6263</a>
+				</li>
+			  </ul>
+			</div>
+			<!-- Grid column -->
+			<!-- Grid column -->
+			<div class="col-md-3 mb-md-0 mb-3">
+			  <!-- Links -->
+			  <h5 class="text-uppercase" style="color:#222"><i class="fas fa-envelope"></i> Email</h5>
+	  
+			  <ul class="list-unstyled" >
+				<li>
+				  <a style="color:#222">admin@mglobalperdana.com</a>
+				</li>
+			  </ul>
+			</div>
+			<!-- Grid column -->
+		  </div>
+		  <!-- Grid row -->
+		</div>
+		<!-- Footer Links -->
+	</section>
+		
+		<div id="copyr" class="footer-copyright text-center py-3">© 2020 Copyright	
+		  <a id="copylink" style="color:#222" href="https://mglobalperdana.com/"> PT. Mitrasoft Global Perdana</a>
+		</div>
+	</footer>
+    <!-- End Footer -->
+	<script>
+		let app=new Vue({
+			el: '#news',
+			data:{
+				Berita:[]
+			},
+			mounted(){
+				axios.get("http://localhost:3355/news").then((resp)=>{
+					let temp=resp.data.data.reverse().splice(0,6)
+					this.Berita = temp
+				}).catch((ex)=>{
+					console.log(ex);
+				})
+			}
+		})
+	</script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>	
+	<script>
+		AOS.init({
+			// offset: 400,
+			duration: 1500
+		});
+ 	</script>
+</body>
+</html>
